@@ -1,0 +1,11 @@
+scikit-learn
+pandas
+numpy
+plotly
+PyQtGraph
+PyQt5
+PyQt6
+cvxopt
+matplotlib
+seaborn
+sqlite3
