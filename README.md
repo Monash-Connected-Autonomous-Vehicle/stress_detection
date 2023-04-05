@@ -18,9 +18,7 @@ stress_detection/
 ├── trainModel.py
 ├── open_source_algo
 │   ├── cvxEDA.py
-│   ├── LICENSE.txt
-│   └── __pycache__
-│       └── cvxEDA.cpython-310.pyc
+│   └── LICENSE.txt
 └── resources
     ├── csv
     │   ├── default_exp_Session1_Shimmer_92E8_Calibrated_PC.csv
