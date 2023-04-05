@@ -2,8 +2,9 @@
 Using the Shimmer3 GSR+ to extract skin conductance data and use that to detect stress after certain stimulus.
 
 ## Packages requirement
+- Required conda as a package management tool
 - Required python libraries is in the 'requirements.txt' or you can ```pip install git+https://github.com/Monash-Connected-Autonomous-Vehicle/stress_detection.git```
-- Required CUDA (Needs NVIDIA GPU) [installation](https://developer.nvidia.com/cuda-11-8-0-download-archive)
+- Required CUDA (Needs NVIDIA GPU) [installation](https://docs.rapids.ai/install?_gl=1*19w40ax*_ga*MjExNzQ0NTAyOS4xNjgwNjU2MTQ4*_ga_RKXFW6CM42*MTY4MDcxOTk2OS4zLjAuMTY4MDcxOTk2OS4wLjAuMA)```conda create -n rapids-23.02 -c rapidsai -c conda-forge -c nvidia rapids=23.02 python=3.10 cudatoolkit=11.8```
 
 ### Project Tree
 ```
