@@ -1,6 +1,10 @@
 # Shimmer3 GSR+ Stress Detection
 Using the Shimmer3 GSR+ to extract skin conductance data and use that to detect stress after certain stimulus.
 
+## Packages requirement
+- Required python libraries is in the 'requirements.txt' or you can ```pip install git+https://github.com/Monash-Connected-Autonomous-Vehicle/stress_detection.git```
+- Required CUDA (Needs NVIDIA GPU) [installation](https://developer.nvidia.com/cuda-11-8-0-download-archive)
+
 ### Project Tree
 ```
 stress_detection/
@@ -8,11 +12,15 @@ stress_detection/
 ├── LICENSE
 ├── live_data_viz.ipynb
 ├── README.md
+├── requirements.txt
 ├── resultHelperClass.py
 ├── train_model.ipynb
+├── trainModel.py
 ├── open_source_algo
 │   ├── cvxEDA.py
-│   └── LICENSE.txt
+│   ├── LICENSE.txt
+│   └── __pycache__
+│       └── cvxEDA.cpython-310.pyc
 └── resources
     ├── csv
     │   ├── default_exp_Session1_Shimmer_92E8_Calibrated_PC.csv
@@ -37,4 +45,6 @@ stress_detection/
     │       └── EDA_9.csv
     └── db
         └── 1679375961.db
+
+7 directories, 34 files
 ```
