@@ -1,11 +1,13 @@
 numpy>=1.23.5
 cvxopt>=1.3.0
-cuml
-cudf
 plotly
 seaborn
 matplotlib
 scikit-learn
+dask
 pandas
 cugraph
 numba
+datashader
+modin[dask]
+jupyter
