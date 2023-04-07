@@ -11,3 +11,5 @@ numba
 datashader
 modin[dask]
 jupyter
+holoviews
+bokeh
