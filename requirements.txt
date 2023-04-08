@@ -12,4 +12,5 @@ datashader
 modin[dask]
 jupyter
 holoviews
+hvplot
 bokeh
